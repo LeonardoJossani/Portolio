@@ -1,3 +1,4 @@
+//navigation menu
 const list = document.querySelectorAll('.list');
 
 function activeLink(){
@@ -28,3 +29,4 @@ function showProjects(){
 	document.getElementById("profile").style.display = 'none';
 	document.getElementById("projects").style.display = 'grid';
 }
+
